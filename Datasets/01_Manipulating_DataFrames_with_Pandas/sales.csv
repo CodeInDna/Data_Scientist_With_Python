@@ -1,7 +1,7 @@
-month,eggs,salt,spam
-Jan,47,12.0,17
-Feb,110,50.0,31
-Mar,221,89.0,72
-Apr,77,87.0,20
-May,132,,52
-Jun,205,60.0,55
+state,month,eggs,salt,spam
+CA,Jan,47,12.0,17
+CA,Feb,110,50.0,31
+NY,Mar,221,89.0,72
+NY,Apr,77,87.0,20
+TX,May,132,,52
+TX,Jun,205,60.0,55
