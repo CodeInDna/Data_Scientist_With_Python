@@ -1,6 +1,6 @@
 # Sales Data
 import pandas as pd
-sales = pd.read_csv('../Dataset/Manipulating DataFrames with Pandas/sales_grocery.csv')
+sales = pd.read_csv('../Datasets/01_Manipulating_DataFrames_with_Pandas/sales_grocery.csv')
 
 # Boolean Filter and Count
 print(sales.loc[sales['weekday'] == 'Sun'].count())
