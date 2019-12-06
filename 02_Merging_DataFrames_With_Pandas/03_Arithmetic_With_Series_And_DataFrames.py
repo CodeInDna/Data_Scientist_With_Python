@@ -1,6 +1,6 @@
 # Loading Weather Data
 import pandas as pd
-weather = pd.read_csv('../Dataset/Merging DataFrames with Pandas/pittsburgh2013.csv', index_col= 'Date', parse_dates=True)
+weather = pd.read_csv('../Datasets/Merging DataFrames with Pandas/pittsburgh2013.csv', index_col= 'Date', parse_dates=True)
 print(weather.loc['2013-7-1':'2013-7-7', 'PrecipitationIn'])
 
 # Date
