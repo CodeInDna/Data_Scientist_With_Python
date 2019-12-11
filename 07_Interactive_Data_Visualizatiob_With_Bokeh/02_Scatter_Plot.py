@@ -5,7 +5,6 @@
 
 # Your job is to plot the Latin America data with the circle() glyph, and the Africa data with the x() glyph.
 
-# figure has already been imported for you from bokeh.plotting.
 
 # Import output_file and show from bokeh.io
 from bokeh.io import output_file, show
