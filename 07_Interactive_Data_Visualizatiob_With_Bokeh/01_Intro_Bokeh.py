@@ -38,7 +38,6 @@ plot.circle(x=10, y=[2,5,8,12], size=[10,20,30,40])
 output_file('Bokeh_Output/v_circle.html')
 
 show(plot)
-
 # A simple scatter plot
 # In this example, you're going to make a scatter plot of female literacy vs fertility using data from the European Environmental Agency. This dataset highlights that countries with low female literacy have high birthrates. The x-axis data has been loaded for you as fertility and the y-axis data has been loaded as female_literacy.
 
