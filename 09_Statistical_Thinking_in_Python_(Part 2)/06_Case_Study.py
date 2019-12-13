@@ -343,7 +343,6 @@ for i in range(10000):
 
 # Compute p-value: p
 p = np.sum(perm_replicates >= heritability_scandens) / len(perm_replicates)
-
 # Print the p-value
 print('p-val =', p) # 0.0
 # You get a p-value of zero, which means that none of the 10,000 permutation pairs replicates you drew had a heritability high enough to match that which was observed. This strongly suggests that beak depth is heritable in G. scandens, just not as much as in G. fortis. If you like, you can plot a histogram of the heritability replicates to get a feel for how extreme of a value of heritability you might expect by chance.
